@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>web5</title>
+  <link rel="stylesheet" href="style.css" />
+   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+  <div id="hoome" class="page active">
+<div class="headermain">
+  <div class="TITLEback">
+  <h1 class="text1">TITLE</h1>
+  <button class="naav"><div class="Equal">=</div></button>
+  <nav class="navi">
+  <ul>
+  <li class="navtext"><button class="navbtn">ホームページ</button></li>
+  <li class="navtext"><button class="navbtn">当店情報</button></li>
+  <li class="navtext"><button class="navbtn">その他</button></li>
+  </ul>
+  </nav>
+  </div>
+</header>
+<headermain>
+  <h1 class="text2">テキストテキストテキスト</h1>
+  <button onclick="showpage('Home')" class="homepage">お問い合わせ</button>
+</div>
+<main>
+   <h1>―テキストテキストテキストテキスト―</h1>
+  <div class="backcolor1">
+  <h1 class="text3">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</h1> 
+  <button onclick="showpage('food')" class="food">食べ物一覧</button>
+  <img src="https://images.unsplash.com/photo-1465014925804-7b9ede58d0d7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1376" class="mori">
+  <h1 class="text4">〜テキストテキストテキスト〜</h1>
+  <div class="backcolor2">
+  <h1 class="text3">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</h1>
+  <button onclick="showpage('drink')" class="drink">飲み物一覧</button>
+  <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1287" class="umi">
+</div>
+</div>
+</main>
+  <div class="TITLEback2">
+  <h1 class="text6">・テキストテキスト</h1>
+  <div class="bun">
+  <h1 class="text61">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</h1>
+  <h1 class="text62">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</h1>
+  </div>
+  <h1 class="text5"></h1> 
+  <h1 class="text51">～テキストテキストテキスト〜</h1>
+  <h1 class="text52">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。</h1>
+  </div>
+  <div class="TITLEback3">
+  <img src="https://images.unsplash.com/photo-1603532232030-69a8264a71f4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470" class="alt2">
+  <h1 class="text7">～テキストテキストテキスト〜</h1>
+  <h1 class="text71">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。</h1>
+  </div>
+  <div class="last">
+  <div class="topmenu">
+  <h1 class="letu">・テキスト</h1>
+  <h1 class="letu">・テキスト</h1>
+  <h1 class="letu">・テキスト</h1>
+  <h1 class="letu">・テキスト</h1>
+  </div>
+  <button id="topbtn" class="topbtn">Topへ</button>
+
+  <div class="seen"></div>
+  <h1 class="lasttext">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</h1>
+  <h1 class="lasttext1">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</h1>
+  <div class="seen1"></div>
+  </div>
+  </div>
+  <div id="Home" class="page">
+
+  <div class="mail">
+   <h1 class="otoitext">〜お問い合わせ〜</h1>
+   <form id="myForm" action="/submit" method="post">
+  <input class=" textsub" type="text" name="name" placeholder="名前を入力してください" required>
+  <input class="textsub" type="email" name="email" placeholder="メールアドレスを入力" required>
+  <input class="textnaiyo" type="text" name="naiyo" placeholder="お問い合わせ内容" required>
+  <button class="otoiawasebtn" type="submit">送信</button>
+</form>
+  </div>
+
+  <div id="modal" class="modal">
+  <div class="modal-content">
+    <p>送信が完了しました！</p>
+    <button class="close" id="closeModal">OK</button>
+  </div>
+</div>
+
+
+  </div>
+  <div id="food" class="page">
+  <div class="scene">
+  <h1>・food menu・</h1>
+  <h2 class="menuuu">-自家製チキンとアボカドのサンド-
+</h2>
+  <div class="ugokuna">
+  <img src="https://images.unsplash.com/photo-1481070414801-51fd732d7184?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1324" class="fade anime">
+  <img src="https://images.unsplash.com/photo-1627308595181-555c07449ff3?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="fade ue">
+  </div>
+  <h3 class="setumei1">〜香ばしく焼いたチキンと濃厚アボカドを全粒粉パンで〜</h3>
+  <h4 class="price">00,000¥</h4>
+  <h2 class="menuuu2">-ハニー＆ベリーパンケーキ-</h2>
+  <div class="slider">
+  <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="off on">
+  <img src="https://images.unsplash.com/photo-1636972678022-ad6f20e43384?q=80&w=1310&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="off ">
+  <img src="https://images.unsplash.com/photo-1600326145552-327f74b9c189?q=80&w=1180&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="off">
+  </div>
+  <h3 class="setumei2">〜優しい甘さと爽やかな酸味がふわっと広がる至福の一皿です。〜</h3>
+  <h4 class="price">00,000¥</h4>
+  <button onclick="showpage('hoome')" class="modore">ホームへ</button>
+  </div>
+  </div>
+
+  <div id="drink" class="page">
+  <div class="scene">
+  <h1>・drink menu・</h1>
+  <h2 class="menuuu">-ルミエールコーヒー-
+</h2>
+  <div class="ugokuna">
+  <img src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?q=80&w=1184&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="coffee deta">
+  <img src="https://images.unsplash.com/photo-1536227661368-deef57acf708?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="coffee ue">
+  </div>
+  <h3 class="setumei1">〜香り高いオリジナルブレンド〜</h3>
+  <h4 class="price">00,000¥</h4>
+  <h2 class="menuuu">-抹茶ラテ-
+</h2>
+  <div class="mawaru">
+  <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="tugi ok">
+  <img src="https://images.unsplash.com/photo-1561658286-ecb9fe9d8480?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="tugi">
+  <img src="https://images.unsplash.com/photo-1725799957338-51f677c0ffa3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="tugi">
+  </div>
+  <h3 class="setumei1">〜濃厚抹茶とミルクのまろやかラテ〜</h3>
+  <h4 class="price">00,000¥</h4>
+  <button onclick="showpage('hoome')" class="modore">ホームへ</button>
+  </div>
+  </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,517 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  border: none;
+  border: 1px solidred;
+}
+.TITLEback {
+  color: #ffffff;
+  background-color: #333;
+  height: 40px;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  
+}
+.text1 {
+  position: relative;
+  left: 15px;
+  top: 5px;
+}
+.menu {
+  position: relative;
+  left: 230px;
+  width: 40px;
+  background: none;
+}
+.Equal {
+  position: relative;
+  bottom: 15px;
+  font-size: 50px;
+  color: #ffffff
+}
+.text2 {
+  font-size: 20px;
+  margin-top: 180px;
+  height: 60px;
+  width: 150px;
+  color: #ffffff;
+  position: relative;
+  top: 200px;
+  left: 120px;
+}
+.homepage {
+  font-size: 14px;
+  color: black;
+  position: relative;
+  top: 230px;
+  left: 125px;
+  margin-bottom: 150px;
+  background: none;
+  background-color: #ffffff;
+  height: 60px;
+  width: 130px;
+  border-radius:  2px;
+}
+.top2 {
+  position: absolute;
+  left: 145px;
+}
+.headermain {
+  background: url("https://plus.unsplash.com/premium_photo-1663858367001-89e5c92d1e0e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1315") center;
+  padding-bottom: 100px;
+}
+.tomei{
+  background-color: black;
+}
+main {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 10px;
+  color: #ffffff;
+  background-color: #333;
+  height:  750px;
+}
+.backcolor1 {
+  background-color: #DCDCDC;
+  border-radius: 20px;
+  width: 160px;
+  height: 200px;
+  position: relative;
+  left: 220px;
+  top: 50px;
+}
+.text3 {
+  color: #333;
+  font-size: 12px;
+  width: 120px;
+  height: 170px;
+  margin: 20px;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  position: relative;
+  top: 14px;
+}
+.mori {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: -210px;
+  top: 0px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.backcolor2 {
+  background-color: #DCDCDC;
+  border-radius: 20px;
+  width: 160px;
+  height: 200px;
+  position: relative;
+  top: 60px;
+  left: -210px;
+}
+.text4 {
+  position: relative;
+  top: 40px;
+  left: -175px;
+  width: 300px;
+
+}
+.umi {
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: -1px;
+  left: 168px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.TITLEback2 {
+  background-color: #DCDCDC;
+  height: 600px;
+}
+.text5 {
+  text-align: center;
+  font-size: 10px;
+  background: url("https://images.unsplash.com/photo-1464306208223-e0b4495a5553?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470") no-repeat center/cover;
+  width: 100%;
+  height: 300px;/* 必要に応じて高さ指定 */
+}
+.text51 {
+  font-size: 10px;
+  position: relative;
+}
+.text52 {
+  font-size: 13px;
+  width: 380px;
+  height: 40px;
+}
+.text6 {
+  font-size: 30px;
+  height: 40px;
+  width: 345px;
+  color: #333;
+  position: relative;
+  left: 23px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+.bun {
+  display: flex;
+  width: 360px;
+  font-size: 8px;
+  position: relative;
+  left: 14px;
+}
+.text61 {
+  color: #333;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  border-left: 1px solid #333;
+  padding-left: 10px;
+}
+.text62{
+  color: #333;
+  margin-bottom:  20px;
+  border-left: 1px solid #333;
+  padding-left: 10px;
+}
+.main2 {
+  position: relative;
+  top: -60px;
+}
+.TITLEback3 {
+   background-color: #DCDCDC;
+   height: 430px;
+}
+.text63 {
+  font-size: 25px;
+  color: #ffffff;
+  width: 360px;
+ }
+.alt2 {
+  width: 393px;
+  height: 300px;
+  position: relative;
+  top: 50px;
+}
+.text7 {
+  font-size: 10px;
+  color: #333;
+  position: relative;
+  top: 45px;
+}
+.text71 {
+  font-size: 13px;
+  color: #333;
+  position: relative;
+  top: 45px;
+}
+.last {
+  background-color: black;
+  position: absolute;
+  top: 2355px;px;;
+  height: 450px;
+  width: 393px;
+}
+.topmenu {
+  font-size: 10px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  width: 150px;
+  position: relative;
+  left: 20px;
+}
+.letu {
+  border-bottom: 2px solid #555;
+  color: #555;
+}
+.seen {
+  border-top: 2px solid #333;
+  width: 360px;
+  position: relative;
+  left: 15px;
+  bottom: 80px;
+}
+.seen1 {
+  border-top: 2px solid #333;
+  width: 360px;
+  position: relative;
+  left: 15px;
+  bottom: 70px;
+}
+.topbtn {
+  background-color: #DCDCDC;
+  color: black;
+  font-size: 15px;
+  position: relative;
+  left: 230px;
+  bottom: 160px;
+  border-radius: 20px;
+  width: 100px;
+  height: 80px;
+}
+.lasttext {
+  color: #555;
+  font-size: 15px;
+  width: 150px;
+  height: 100px;
+  position: relative;
+  bottom: 65px;
+  left: 20px;
+  margin: 0px;
+}
+.lasttext1 {
+  color: #555;
+  font-size: 15px;
+  width: 150px;
+  height: 100px;
+  position: relative;
+  bottom: 165px;
+  left: 210px;
+}
+.food {
+  background-color: black;
+  position: relative;
+  top: -40px;
+  color: #DCDCDC;
+  border-radius: 20px;
+  height: 30px;
+  width: 70px;
+}
+.drink {
+  background-color: black;
+  position: relative;
+  top: -40px;
+  color: #DCDCDC;
+  border-radius: 20px;
+  height: 30px;
+  width: 70px;
+}
+.page {
+  display: none;
+}
+.active {
+  display: block;
+}
+.fade {
+  width: 393px;;
+  height: 300px;
+  opacity: 0;
+  transition: opacity 3s ease;
+}
+.anime {
+  opacity: 1;
+}
+.ue {
+  position: absolute;
+  left: 0px;
+}
+.setumei1 {
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  top: 0px;
+  margin: 0px;
+}
+.price {
+  position: relative;
+  left: -30px;
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+}
+.slider {
+  position: relative;
+  top: 0px;
+  width: 393px;
+  height: 300px;
+  overflow: hidden;     
+}
+.off {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 393px;
+  height: 300px;
+  opacity: 0;
+  transition: all 2s ease;
+  object-fit: cover;
+}
+.off.on {
+  left: 0;
+  opacity: 1;
+}
+.off.prev {
+  left: -100%;
+  opacity: 0;
+}
+.menuuu{
+  font-size: 20px;
+  text-align: center;
+}
+.menuuu2{
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 0px;
+}
+.setumei2{
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  top: 0px;
+  margin: 0px;
+}
+.modore{
+  background-color: #DCDCDC;
+  color: black;
+  font-size: 15px;
+  position: relative;
+  left: 150px;
+  border-radius: 20px;
+  width: 100px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+.ugokuna {
+  position: relative;
+  top: 0px;
+}
+.coffee {
+  width: 393px;;
+  height: 300px;
+  opacity: 0;
+  transition: opacity 3s ease;
+}
+.deta {
+  opacity: 1;
+}
+.mawaru{
+  position: relative;
+  top: 0px;
+  width: 393px;
+  height: 300px;
+  
+}
+.tugi{
+  position: absolute;
+  top: 0px;
+  left: 100%;
+  width: 393px;
+  height: 300px;
+  opacity: 0;
+  transition: all 2s ease;
+  object-fit: cover;
+}
+.tugi.ok {
+  left: 0;
+  opacity: 1;
+}
+.tugi.kaeri{
+  left: -100%;
+  opacity: 0;
+}
+.scene {
+  background-color: #333;
+  color: #DCDCDC;
+}
+.naav {
+  position: relative;
+  left: 240px;
+  background-color: #333;
+}
+
+.navi {
+  position: absolute;
+  left: 50px;
+  top: 80px;
+  left: -200px; /* 画面外に少しだけ隠す */
+  width: 200px;
+  height: 303px;
+  background-color: #333;
+  transition: left 0.3s ease;
+  padding: 0px;
+  margin: 0px;
+}
+.dete {
+  left: 0;
+}
+.navtext{
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+  text-align: center;
+}
+.navbtn{
+  color: #DCDCDC;
+  background-color: #333;
+  font-size: 15px;
+  width: 190px;
+  height: 99px;
+}
+.mail {
+  background-color: #333;
+  height: 700px;
+}
+input {
+  width: 300px;   /* 横幅 */
+  height: 40px;   /* 高さ */
+  padding: 8px;   /* 内側の余白（文字が見やすい） */
+  font-size: 16px; /* 入力文字の大きさ */
+}
+.textsub {
+  position: relative;
+  top: 50px;
+  left: 20px;
+  margin-top: 30px;
+}
+.textnaiyo {
+  position: relative;
+  top: 150px;
+  left: 20px;
+  height: 100px;
+  font-size: 20px;
+}
+.otoiawasebtn {
+  position: relative;
+  top: 250px;
+  left: 20px;
+  width: 100px;
+  height: 60px;
+}
+.otoitext {
+  color: #DCDCDC;
+  text-align: center;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5); /* 黒の半透明 */
+  display: none;  /* 最初は隠す */
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.close {
+  width: 50px;
+  height: 30px;
+  background-color: black;
+  color: #DCDCDC;
+  border-radius: 10px;
+}
